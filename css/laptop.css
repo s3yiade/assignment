@@ -1,0 +1,76 @@
+
+@media screen and (min-width: 1024px) {
+
+
+  .brand {
+    float: left;
+  }
+
+  .site-header nav {
+    float: right;
+  }
+
+  .nav-list li {
+    display: inline-block;
+    margin-left: 0.25rem;
+  }
+
+  .hero {
+    padding: 6rem 0;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .page-banner h1 {
+    font-size: 3rem;
+  }
+
+
+  .hero .lead {
+    width: 60%;
+  }
+
+
+  .card {
+    float: left;
+    width: 30.6667%;
+    margin-right: 4%;
+  }
+
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .card:nth-child(3n+1) {
+    clear: left;
+  }
+
+
+  .about-photo {
+    float: left;
+    width: 32%;
+    margin: 0 5% 1.5rem 0;
+  }
+
+  .about-text {
+    overflow: hidden;
+  }
+
+  .video-wrap {
+    width: 75%;
+  }
+
+
+  .form-panel {
+    float: left;
+    width: 60%;
+  }
+
+  .contact-aside {
+    float: right;
+    width: 34%;
+    padding-top: 0;
+  }
+}

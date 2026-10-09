@@ -1,0 +1,64 @@
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+
+  .brand {
+    display: block;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .nav-list {
+    text-align: center;
+  }
+
+  .nav-list li {
+    display: inline-block;
+  }
+
+  .hero h1,
+  .page-banner h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .lead {
+    width: 85%;
+  }
+
+
+  .card {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+
+
+  .card:nth-child(2n) {
+    margin-right: 0;
+  }
+
+
+  .card:nth-child(2n+1) {
+    clear: left;
+  }
+
+  .about-photo {
+    float: left;
+    width: 40%;
+    margin: 0 4% 1.5rem 0;
+  }
+
+
+  .about-text {
+    overflow: hidden;
+  }
+
+  .video-wrap {
+    width: 90%;
+  }
+
+
+  .form-panel,
+  .contact-aside {
+    width: 85%;
+    margin: 0 auto;
+  }
+}

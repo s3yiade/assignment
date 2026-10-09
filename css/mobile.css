@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 599px) {
+
+  html {
+    font-size: 93.75%;
+  }
+
+
+  .brand {
+    display: block;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+
+  .nav-list li {
+    float: left;
+    width: 50%;
+    padding: 0.2rem;
+  }
+
+  .nav-list a {
+    text-align: center;
+  }
+
+  .hero {
+    padding: 2.5rem 0;
+  }
+
+  .hero h1,
+  .page-banner h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+
+  .button {
+    display: block;
+    width: 100%;
+    margin: 0 0 0.75rem;
+    text-align: center;
+  }
+
+
+  .card {
+    float: none;
+    width: 100%;
+  }
+
+  .about-photo {
+    width: 80%;
+    margin: 0 auto 1.5rem;
+  }
+
+  .form-panel {
+    padding: 1.25rem;
+  }
+}

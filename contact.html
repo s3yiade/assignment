@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Oluwaseyi Darren Adetunji (ODA) with questions, comments or project enquiries.">
+  <title>Contact Me | ODA Adetunji Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/tablet.css">
+  <link rel="stylesheet" href="css/laptop.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container clearfix">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">TA</span>ODA Adetunji</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list clearfix">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-banner" aria-labelledby="page-title">
+      <div class="container">
+        <h1 id="page-title">Contact Me</h1>
+        <p class="lead">Send me your questions, comments and project enquiries.</p>
+      </div>
+    </section>
+
+    <div class="section">
+      <div class="container contact-layout clearfix">
+        <article class="form-panel">
+          <h2 id="form-title">Send a message</h2>
+          <p class="hint">All fields are required.</p>
+          <form class="contact-form" action="mailto:oluwaseyi.adetunji@ontariotechu.net?subject=Portfolio%20enquiry" method="post" enctype="text/plain">
+            <div class="form-row">
+              <label for="name">Your name</label>
+              <!-- Must start with a letter; allows letters, spaces, apostrophes, periods and hyphens -->
+              <input type="text" id="name" name="name" autocomplete="name" required minlength="2" maxlength="60"
+                     pattern="[A-Za-z][A-Za-z' .\-]{1,59}"
+                     title="Letters, spaces, apostrophes, periods and hyphens only (2 to 60 characters)."
+                     aria-describedby="name-hint">
+              <span class="hint" id="name-hint">For example: Jane Doe</span>
+            </div>
+
+            <div class="form-row">
+              <label for="email">Your email</label>
+              <!-- type="email" plus a pattern that also requires a domain ending such as .com or .ca -->
+              <input type="email" id="email" name="email" autocomplete="email" required maxlength="100"
+                     pattern="[^@\s]+@[^@\s]+\.[A-Za-z]{2,}"
+                     title="Enter a valid email address, for example name@example.com."
+                     aria-describedby="email-hint">
+              <span class="hint" id="email-hint">For example: name@example.com</span>
+            </div>
+
+            <div class="form-row">
+              <label for="phone">Cell number</label>
+              <!-- North American format: 10 digits, optional brackets around the area code, optional space, dash or period separators -->
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required maxlength="14"
+                     pattern="\(?[0-9]{3}\)?[ \-.]?[0-9]{3}[ \-.]?[0-9]{4}"
+                     title="Enter a 10-digit phone number, for example 905-555-0123."
+                     aria-describedby="phone-hint">
+              <span class="hint" id="phone-hint">For example: 905-555-0123 or (905) 555 0123</span>
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required minlength="10" maxlength="1000"
+                        aria-describedby="message-hint"></textarea>
+              <span class="hint" id="message-hint">Between 10 and 1000 characters.</span>
+            </div>
+
+            <div class="form-row">
+              <label for="human">What is 2 + 2? (So I know you aren't a robot)</label>
+              <input type="text" id="human" name="human" inputmode="numeric" required maxlength="2"
+                     pattern="4" title="Please enter the answer as a number."
+                     aria-describedby="human-hint">
+              <span class="hint" id="human-hint">Enter the answer as a number.</span>
+            </div>
+
+            <div class="form-row form-actions">
+              <button type="submit" class="button">Send message</button>
+              <button type="reset" class="button button-outline">Clear form</button>
+            </div>
+          </form>
+        </article>
+
+        <aside class="contact-aside" aria-labelledby="aside-title">
+          <h2 id="aside-title">Other ways to reach me</h2>
+          <p>Prefer email? Write to me directly at <a href="mailto:oluwaseyi.adetunji@ontariotechu.net">my_email@ontariotechu.net</a>.</p>
+          <p>I usually reply within two business days. For project enquiries, a short description of what you need and your timeline helps me respond faster.</p>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Email: <a href="mailto:oluwaseyi.adetunji@ontariotechu.net">my_email@ontariotechu.net</a></p>
+      <p>&copy; 2026 Oluwaseyi Darren Adetunji (ODA). All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
